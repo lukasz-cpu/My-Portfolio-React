@@ -4,6 +4,7 @@ import linkedinIcon from "../../assets/linkedin-light.svg";
 import themeIcon from "../../assets/sun.svg";
 import twitterIcon from "../../assets/twitter-light.svg";
 import styles from "./HeroStyles.module.css";
+import CV from "../../assets/cv.pdf"
 
 function Hero() {
   return (
@@ -36,6 +37,12 @@ function Hero() {
           <img src={linkedinIcon} alt="Linkedin icon" />
         </a>
       </span>
+      <p>With a passion for developing modern React web app for commercial businesses.</p>
+      <a href={CV} download>
+        <button className="hover">
+         Resume
+        </button>
+      </a>
     </section>
   );
 }
