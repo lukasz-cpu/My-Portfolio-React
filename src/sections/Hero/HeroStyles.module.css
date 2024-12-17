@@ -69,6 +69,8 @@
 
 .description {
     max-width: 24ch;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .info {
