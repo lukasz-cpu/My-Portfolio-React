@@ -3,16 +3,18 @@
     flex-direction: column;
     text-align: center;
 }
+
 form {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-textarea, input:not([type='submit']) {
+textarea,
+input:not([type='submit']) {
     height: 50px;
     padding-left: 16px;
-    width: 25px;
+    width: 250px;
 }
 
 textarea {
