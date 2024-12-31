@@ -68,7 +68,7 @@ input[type='submit']:active {
     }
     form {
         gap: 40px;
-    }   dads
+    }
 }
 
 @media (width >= 1400px) {
